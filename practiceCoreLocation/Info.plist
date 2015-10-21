@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Use CoreLocation! アプリ使用中以外も常に許可(文章（値）はなんでも良い！)</string>
+	<key>NSLocaitonWhenUseUsageDesdription</key>
+	<string>This app will use your locaiton infomation to identify nearby attractions</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

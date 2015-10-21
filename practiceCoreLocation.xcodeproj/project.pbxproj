@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A53BA91BD4D042001B04EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A53BA81BD4D042001B04EB /* CoreLocation.framework */; };
 		32BE25F51BCCABEF00937F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE25F41BCCABEF00937F08 /* AppDelegate.swift */; };
 		32BE25F71BCCABEF00937F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE25F61BCCABEF00937F08 /* ViewController.swift */; };
 		32BE25FA1BCCABEF00937F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BE25F81BCCABEF00937F08 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32A53BA81BD4D042001B04EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		32BE25F11BCCABEF00937F08 /* practiceCoreLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceCoreLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BE25F41BCCABEF00937F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BE25F61BCCABEF00937F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A53BA91BD4D042001B04EB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		32BE25E81BCCABEF00937F08 = {
 			isa = PBXGroup;
 			children = (
+				32A53BA81BD4D042001B04EB /* CoreLocation.framework */,
 				32BE25F31BCCABEF00937F08 /* practiceCoreLocation */,
 				32BE26081BCCABEF00937F08 /* practiceCoreLocationTests */,
 				32BE26131BCCABEF00937F08 /* practiceCoreLocationUITests */,
@@ -192,6 +196,11 @@
 				TargetAttributes = {
 					32BE25F01BCCABEF00937F08 = {
 						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					32BE26041BCCABEF00937F08 = {
 						CreatedOnToolsVersion = 7.0;
@@ -481,6 +490,7 @@
 				32BE261B1BCCABEF00937F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32BE261C1BCCABEF00937F08 /* Build configuration list for PBXNativeTarget "practiceCoreLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +499,7 @@
 				32BE261E1BCCABEF00937F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32BE261F1BCCABEF00937F08 /* Build configuration list for PBXNativeTarget "practiceCoreLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +508,7 @@
 				32BE26211BCCABEF00937F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
